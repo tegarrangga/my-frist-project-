@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: "montserrat", sans-serif;
+}
+
+/* header */
+h1, .name{
+    font-family: "montserrat", sans-serif;
+    color: black;
+    margin-right: auto;
+}
+li, a{
+    font-size: 40px;
+}
+
+li, a{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.link_menu,li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.link_menu, li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.link_menu, li, a:hover{
+    color: grey;
+}
+button{
+    padding: 9px 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+    background-color: rgb(196, 189, 189);
+
+}
+
+/* akhir header */
+
+/* main konten */
+
+.foto{
+    display: flex;
+    margin: auto;
+    background-image: url("tegar.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.nama_foto{
+    width: 400px;
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: "montserrat" sans-serif;
+    font-size: 18px;
+}
+.caption_foto{
+    width: 480px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.tempat_icon{
+    width: 150px;
+    margin: auto;
+    padding-top: 10px;
+
+}
+.fab{
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.sambutan{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.sambut{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.perkenalan{
+    display: flex;
+    padding: 30px 10%;
+    padding-top: 100px;
+    margin-right: auto;
+}
+
+
+.foto_intro{
+    margin-top: 40px;
+    margin-right: auto;
+    width: 520px;
+    height: 520px;
+    background-image: url("tegar2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.capt_intro{
+    margin-right: 50px;
+    margin-top: 150px;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    
+}
+
+.capt_name{
+    width: 400px;
+    position: absolute;
+    right: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.perkenalan2{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.capt_intro2{
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+.foto_intro2{
+    width: 520px;
+    height: 520px;
+    background-color: blueviolet;
+    background-image: url("tegar4.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.title{
+    padding: 30px 10%;
+    text-align: center;
+    text-decoration: underline;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.keunggulan{
+    padding: 30px 10%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.unggul1{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-image: url("icon.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border-style: solid;
+    transition: all 0,3s ease 0s;
+}
+.unggul1:hover{
+    background-color: rgb(196, 189, 189);
+}
+
+.unggul2{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-image: url("icon.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border-style: solid;
+    transition: all 0,3s ease 0s;
+    
+}
+
+.unggul2:hover{
+    background-color: rgb(196, 189, 189);
+}
+
+.unggul3{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-image: url("icon.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border-style: solid;
+    transition: all 0,3s ease 0s;
+}
+.unggul3:hover{
+    background-color: rgb(196, 189, 189);
+}
+
+.cap_unggul{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.capung1{
+    width: 250px;
+    text-align: center;
+    transition: all 0,3s ease 0s;
+    cursor: pointer;
+    margin-top: 270px;
+}
+.capung1:hover{
+    color: rgb(196, 189, 189);
+}
+
+.capung2{
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+    margin-top: 270px;
+
+}
+
+.capung2:hover{
+    color: rgb(196, 189, 189);
+}
+
+.capung3{
+    width: 259px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+    margin-top: 270px;
+
+}
+
+
+.capung3:hover{
+    color: rgb(196, 189, 189);
+}
+
+h5{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.isiAbout{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px 10%;
+}
+.isi{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+.capt_isi{
+    
+    text-align: left;
+    margin-right: auto;
+}
+
+.Pabout1{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.Pabout2{
+    margin-top: 20px;
+    width: 600px;
+}
+
+.follow{
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+.follow_link{
+    margin-top: 20px;
+}
+
+.link2{
+    margin-top: 10px;
+}
+
+.link3{
+    margin-top: 10px;
+}
+.cntc{
+    margin-top: 30px;
+}
+
+.pertanyaan{
+    padding: 30px 10%;
+}
+
+.contact1{
+    margin-top: 15px;
+}
+
+.contact2{
+    margin-top: 15px;
+}
+.hero{
+    font-size: 15px;
+}
+.pertanyaan{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.capt_pertanyaan{
+    margin-top: 20px;
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 800px){
+    .capt_intro{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .capt_intro2{
+        text-align: right;
+        margin-right: 20px;
+    }
+    .isiAbout{
+        display: block;
+    }
+    .capt_isi{
+        text-align: center;
+    }
+
+    .follow{
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .perkenalan{
+        display: block;
+    }
+    .Pabout1{
+        width: 400px;
+    }
+    .Pabout2{
+        width: 400px;
+    }
+    .foto_intro{
+        width: 400px;
+        height: 450px;
+    }
+    .title_pertanyaan{
+        margin-right: 200px;
+    }
+    .caption_foto{
+        width: 400px;
+    }
+    .capt_pertanyaan{
+
+        width: 400px;
+    }
+    .submit{
+        position: relative;
+        margin-right: 200px;
+    }
+    .capt_intro{
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .perkenalan2{
+        display: block;
+    }
+    .foto_intro2{
+        width: 400px;
+        height: 450px;
+    }
+
+    .capt_intro2{
+        margin: auto;
+        text-align: center;
+    }
+    .keunggulan{
+        display: block;
+    }
+    .unggul1{
+        margin: auto;
+    }
+    .unggul2{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .unggul3{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        left: 110px;
+    }
+    .name{
+        margin: auto;
+        margin-top: 80px;
+        
+    }
+    .title{
+        margin: auto;
+    }
+
+}
+
